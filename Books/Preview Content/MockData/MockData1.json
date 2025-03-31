@@ -1,0 +1,138 @@
+{
+    "genres": [
+        {
+            "name": "Mystery",
+            "color": "#2E4053"
+        },
+        {
+            "name": "Romance",
+            "color": "#E74C3C"
+        },
+        {
+            "name": "Historical Fiction",
+            "color": "#1A5276"
+        },
+        {
+            "name": "Dystopian",
+            "color": "#34495E"
+        },
+        {
+            "name": "Adventure",
+            "color": "#16A085"
+        }
+    ],
+    "authors": [
+        {
+            "firstName": "Margaret",
+            "lastName": "Atwood",
+            "authorId": "Margaret Atwood"
+        },
+        {
+            "firstName": "George",
+            "lastName": "Orwell",
+            "authorId": "George Orwell"
+        },
+        {
+            "firstName": "Agatha",
+            "lastName": "Christie",
+            "authorId": "Agatha Christie"
+        },
+        {
+            "firstName": "J.K.",
+            "lastName": "Rowling",
+            "authorId": "J.K. Rowling"
+        },
+        {
+            "firstName": "Ernest",
+            "lastName": "Hemingway",
+            "authorId": "Ernest Hemingway"
+        },
+        {
+            "firstName": "Dan",
+            "lastName": "Brown",
+            "authorId": "Dan Brown"
+        },
+        {
+            "firstName": "Diana",
+            "lastName": "Gabaldon",
+            "authorId": "Diana Gabaldon"
+        },
+        {
+            "firstName": "Suzanne",
+            "lastName": "Collins",
+            "authorId": "Suzanne Collins"
+        },
+        {
+            "firstName": "James",
+            "lastName": "Patterson",
+            "authorId": "James Pattersson"
+        },
+        {
+            "firstName": "Gillian",
+            "lastName": "Flynn",
+            "authorId": "Gillian Flynn"
+        },
+        {
+            "firstName": "Paulo",
+            "lastName": "Coelho",
+            "authorId": "Paulo Coelho"
+        },
+        {
+            "firstName": "Nicholas",
+            "lastName": "Sparks",
+            "authorId": "Nicholas Sparks"
+        }
+    ],
+    "books": [
+        {
+            "name": "Shadows of Deceit",
+            "genre": "Mystery",
+            "authorIds": ["Agatha Christie", "Gillian Flynn"]
+        },
+        {
+            "name": "Eternal Flames",
+            "genre": "Romance",
+            "authorIds": ["Nicholas Sparks"]
+        },
+        {
+            "name": "The Crimson Banner",
+            "genre": "Historical Fiction",
+            "authorIds": ["Diana Gabaldon"]
+        },
+        {
+            "name": "Beyond the Veil",
+            "genre": "Dystopian",
+            "authorIds": ["Margaret Atwood", "George Orwell"]
+        },
+        {
+            "name": "Lost Kingdom",
+            "genre": "Adventure",
+            "authorIds": ["J.K. Rowling", "Dan Brown"]
+        },
+        {
+            "name": "The Silent Witness",
+            "genre": "Mystery",
+            "authorIds": ["James Pattersson"]
+        },
+        {
+            "name": "The Last City",
+            "genre": "Dystopian",
+            "authorIds": ["Suzanne Collins"]
+        },
+        {
+            "name": "The Forgotten Letter",
+            "genre": "Historical Fiction",
+            "authorIds": ["Ernest Hemingway"]
+        },
+        {
+            "name": "Island of Secrets",
+            "genre": "Adventure",
+            "authorIds": ["Paulo Coelho"]
+        },
+        {
+            "name": "Whispers in the Dark",
+            "genre": "Mystery",
+            "authorIds": ["Agatha Christie"]
+        }
+    ]
+}

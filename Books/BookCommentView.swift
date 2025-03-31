@@ -70,7 +70,6 @@ struct BookCommentView: View {
                         }
                         // Save the changes
                         try modelContext.save()
-                        print(booksToDelete)
                     } catch {
                         print("Error deleting book: \(error)")
                     }
@@ -93,8 +92,10 @@ struct BookCommentView: View {
                 .font(.title)
             Text(book.allAuthors)
                 .font(.title3)
-            Text(book.genre.name)
-                .tagStyle(genre: book.genre)
+            if (book.genre != nil) {
+                Text(book.genre!.name)
+                    .tagStyle(genre: book.genre!)
+            }
             TextField("Comment", text: $book.comment, axis: .vertical)
                 .textFieldStyle(.roundedBorder)
             Spacer()

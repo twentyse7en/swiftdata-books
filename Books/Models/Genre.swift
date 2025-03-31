@@ -17,10 +17,8 @@ import SwiftData
 
 @Model
 class Genre {
-    @Attribute(.unique)
     var name: String
     var color: String
-    @Relationship(deleteRule: .cascade, inverse: \Book.genre)
     var books: [Book]
     
     // Computed property used to determine the foreground style for Genre tag

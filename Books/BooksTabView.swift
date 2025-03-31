@@ -26,8 +26,6 @@ struct BooksTabView: View {
                         Text(book.name)
                             .font(.title)
                         Spacer()
-                        Text(book.genre.name)
-                            .tagStyle(genre: book.genre)
                     }
                     HStack {
                         Text(book.allAuthors)

@@ -43,4 +43,11 @@ struct ImportModel: Codable {
         let importData = try? JSONDecoder().decode(ImportModel.self, from: data)
         return importData
     }
+    
+    static func fetchMockDataV2() -> ImportModel? {
+        guard let url = Bundle.main.url(forResource: "MockData1.json", withExtension: "") else { return nil }
+        guard let data = try? Data(contentsOf: url) else { return nil }
+        let importData = try? JSONDecoder().decode(ImportModel.self, from: data)
+        return importData
+    }
 }

@@ -17,11 +17,12 @@ import SwiftData
 
 @Model
 class Book {
-    #Index<Book>([\.name], [\.genre])
+    #Index<Book>([\.name])
     var name: String
-    var genre: Genre
+    @Relationship(deleteRule: .cascade, inverse: \Genre.books)
+    var genre: Genre?
     var comment: String = ""
-    @Relationship(inverse: \Author.books)
+    @Relationship(deleteRule: .cascade, inverse: \Author.books)
     var authors: [Author]
     
     var allAuthors: String {

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1AE09A282D9A6C52006B9C5E /* FavouriteBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE09A272D9A6C3D006B9C5E /* FavouriteBook.swift */; };
+		1AE09A2C2D9AB068006B9C5E /* MockData1.json in Resources */ = {isa = PBXBuildFile; fileRef = 1AE09A2B2D9AB063006B9C5E /* MockData1.json */; };
 		BB125A922C96A1FF008375AF /* ImportModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB125A912C96A1FF008375AF /* ImportModel.swift */; };
 		BB125A942C96A60C008375AF /* MockData.json in Resources */ = {isa = PBXBuildFile; fileRef = BB125A932C96A600008375AF /* MockData.json */; };
 		BB125A962C9737B2008375AF /* MockDataPreviewTrait.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB125A952C9737B2008375AF /* MockDataPreviewTrait.swift */; };
@@ -30,6 +31,7 @@
 
 /* Begin PBXFileReference section */
 		1AE09A272D9A6C3D006B9C5E /* FavouriteBook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteBook.swift; sourceTree = "<group>"; };
+		1AE09A2B2D9AB063006B9C5E /* MockData1.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = MockData1.json; sourceTree = "<group>"; };
 		BB125A912C96A1FF008375AF /* ImportModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportModel.swift; sourceTree = "<group>"; };
 		BB125A932C96A600008375AF /* MockData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = MockData.json; sourceTree = "<group>"; };
 		BB125A952C9737B2008375AF /* MockDataPreviewTrait.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockDataPreviewTrait.swift; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 				BB125A912C96A1FF008375AF /* ImportModel.swift */,
 				BB125A952C9737B2008375AF /* MockDataPreviewTrait.swift */,
 				BB125A932C96A600008375AF /* MockData.json */,
+				1AE09A2B2D9AB063006B9C5E /* MockData1.json */,
 			);
 			path = MockData;
 			sourceTree = "<group>";
@@ -206,6 +209,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB584BF42C94ED7A00267459 /* Launch Screen.storyboard in Resources */,
+				1AE09A2C2D9AB068006B9C5E /* MockData1.json in Resources */,
 				BB125A942C96A60C008375AF /* MockData.json in Resources */,
 				BB9EE0CD2C8E2E8B000C5047 /* Preview Assets.xcassets in Resources */,
 				BB9EE0CE2C8E2E8B000C5047 /* Assets.xcassets in Resources */,
