@@ -20,7 +20,7 @@ struct BooksApp: App {
     var body: some Scene {
         WindowGroup {
             StartTabView()
-                .modelContainer(for: Book.self, inMemory: true)
+                .modelContainer(for: [Book.self, FavouriteBook.self], inMemory: true)
         }
     }
 }

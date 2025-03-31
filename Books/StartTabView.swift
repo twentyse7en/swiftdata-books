@@ -76,7 +76,7 @@ struct StartTabView: View {
 
 #Preview {
     StartTabView()
-        .modelContainer(for: Book.self, inMemory: true)
+        .modelContainer(for: [Book.self, FavouriteBook.self], inMemory: true)
 }
 
 #Preview(traits: .mockData) {
