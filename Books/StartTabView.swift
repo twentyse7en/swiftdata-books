@@ -67,6 +67,13 @@ struct StartTabView: View {
                 GenresTabView()
             }
         }
+       .onAppear {
+           let versionManager = DataVersionManager()
+           if versionManager.isUpdateAvailable() {
+               print("update is available")
+               versionManager.markUpdateComplete()
+           }
+        }
         .task(priority: .background) {
             let cache = CachedDataHandler(modelContainer: modelContext.container)
             await cache.persist()

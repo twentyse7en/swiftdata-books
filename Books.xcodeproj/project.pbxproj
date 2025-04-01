@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A5293D22D9C622300B7157D /* Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1A5293D12D9C621A00B7157D /* Config.plist */; };
+		1A5293D42D9C66ED00B7157D /* DataVersionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5293D32D9C66ED00B7157D /* DataVersionManager.swift */; };
 		1AE09A282D9A6C52006B9C5E /* FavouriteBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE09A272D9A6C3D006B9C5E /* FavouriteBook.swift */; };
 		1AE09A2C2D9AB068006B9C5E /* MockData1.json in Resources */ = {isa = PBXBuildFile; fileRef = 1AE09A2B2D9AB063006B9C5E /* MockData1.json */; };
 		BB125A922C96A1FF008375AF /* ImportModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB125A912C96A1FF008375AF /* ImportModel.swift */; };
@@ -30,6 +32,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A5293D12D9C621A00B7157D /* Config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Config.plist; sourceTree = "<group>"; };
+		1A5293D32D9C66ED00B7157D /* DataVersionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataVersionManager.swift; sourceTree = "<group>"; };
 		1AE09A272D9A6C3D006B9C5E /* FavouriteBook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteBook.swift; sourceTree = "<group>"; };
 		1AE09A2B2D9AB063006B9C5E /* MockData1.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = MockData1.json; sourceTree = "<group>"; };
 		BB125A912C96A1FF008375AF /* ImportModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportModel.swift; sourceTree = "<group>"; };
@@ -112,7 +116,9 @@
 			isa = PBXGroup;
 			children = (
 				BB9EE0C82C8E2E8B000C5047 /* BooksApp.swift */,
+				1A5293D12D9C621A00B7157D /* Config.plist */,
 				BB9EE0C92C8E2E8B000C5047 /* StartTabView.swift */,
+				1A5293D32D9C66ED00B7157D /* DataVersionManager.swift */,
 				BB9EE0E22C8E4DA1000C5047 /* BooksTabView.swift */,
 				BB43DA072C9388E100E110F1 /* BookCommentView.swift */,
 				BB9EE0E42C8E4DAC000C5047 /* AuthorsTabView.swift */,
@@ -212,6 +218,7 @@
 				1AE09A2C2D9AB068006B9C5E /* MockData1.json in Resources */,
 				BB125A942C96A60C008375AF /* MockData.json in Resources */,
 				BB9EE0CD2C8E2E8B000C5047 /* Preview Assets.xcassets in Resources */,
+				1A5293D22D9C622300B7157D /* Config.plist in Resources */,
 				BB9EE0CE2C8E2E8B000C5047 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -237,6 +244,7 @@
 				BB9EE0E32C8E4DA1000C5047 /* BooksTabView.swift in Sources */,
 				BB125A962C9737B2008375AF /* MockDataPreviewTrait.swift in Sources */,
 				BB9EE0D62C8E461D000C5047 /* Genre.swift in Sources */,
+				1A5293D42D9C66ED00B7157D /* DataVersionManager.swift in Sources */,
 				BB9EE0D02C8E2EA0000C5047 /* Book.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
